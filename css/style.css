@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    background-color: mediumvioletred;
+    height:8vh;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media  screen and (max-width:480px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }   
+}
+
+@media screen and(max-width:800px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+header>div{
+    display: flex;
+    align-items: center;
+}
+
+header>div>img{
+    width: 35px;
+    height: 35px;
+    padding-right: 15px;
+    padding-left: 10px;
+
+}
+
+header>button{
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+ @media  screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+@media screen and(max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+@media screen and (max-width:1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    } 
+} 
+
+.menu{
+    background-color: #f2d0e0;
+    width: 20%;
+}
+
+.menu_produtos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+
+.elementos_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img_menu{
+    height:30px;
+    width:30px;
+    padding-right: 10px;
+}
+
+.content{
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+@media  screen and (max-width:480px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+@media screen and(max-width:800px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:1200px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+.card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px darkgray;
+    border: outset;
+    min-height: 30%;
+    padding-top: 20px;
+}
+
+.card1>h2{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card1>p{
+    text-align: center;
+}
+
+.img_bolo{
+    height: 180px ;
+    width: 180px ;
+}
+
+footer{
+    display: flex;
+    height: 7vh;
+    background-color: mediumvioletred ;
+    align-items: center;
+    justify-content: center;
+
+}
